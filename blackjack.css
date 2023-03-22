@@ -1,0 +1,125 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 25px;
+    text-align: center;
+    text-decoration: solid;
+    background-image: url(blackjack.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color:goldenrod; 
+    background-color:black;
+    display: inline-flex;
+}
+
+#message-el
+{
+    display: inline-flex;
+    font-weight: bold;
+    font-size: large;
+    color:white; 
+    background-color:goldenrod;
+    background-size:40px;
+    font-style:oblique;
+    transition: transform 5000ms cubic-bezier(0.05,0.43,.25,.95);
+    transition-delay: 1.5s;
+}
+#dealercard-el
+{
+    font-size: large;  
+    color:black;
+    font-style:italic;
+    background-color:white;
+    display: inline-flex;
+}
+
+#card-el
+{
+    font-size: large;
+    color:black;
+    font-style:italic;
+    background-color:white;
+    display: inline-flex;
+}
+
+#sum-el
+{
+    font-size: large;
+    color:white;
+    font-style:italic;
+}
+
+#dealersum-el
+{
+    font-size: large;
+    color:white;
+    font-style:italic;
+}
+
+
+button{
+    text-align: center;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-radius: 5px;
+    margin-top: 10px; 
+    margin-bottom:10px;
+    color:#016f32 ;
+}
+
+button:hover{
+    background-color: gold;
+    transition: background-color 0.1s;
+    transition: ease-in;
+    
+}
+
+#player-cards img
+{
+    height: 150px;
+    width: 120px;
+    margin:2px;
+}
+
+#player-cards
+{
+    transition: transform 2500ms cubic-bezier(0.05,0.43,.25,.95);
+    transition-delay: 1.0s;
+}
+
+#dealer-cards
+{
+    transition: transform 2500ms cubic-bezier(0.05,0.43,.25,.95);
+    transition-delay: 0.2s;
+}
+
+#dealer-cards img
+{
+    height: 150px;
+    width: 120px;
+    margin:2px;
+}
+
+#player
+{
+    display: table-column;
+}
+
+#dealer
+{
+    display: table-column;
+}
+
+img.demo-shadow {
+    filter: drop-shadow(10px 10px 10px #A4BBFF);
+}
+#canvas1
+{
+    background-color: goldenrod;
+}
